@@ -11,7 +11,7 @@ namespace PotsePartyApi.Controllers
     public class FilesController : Controller
     {
         private readonly ILogger<FilesController> _logger;
-        string endpoint = "cloud.potseparty.de";
+        string endpoint = "storage.potseparty.de";
         string accessKey = "kJBpR4CPhoM2doSgPOvw";
         string secretKey = "HtC0tAJEEW4WXQgOWDXKKmO9NXoagDIVY6aVJYfb";
 
