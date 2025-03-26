@@ -38,5 +38,5 @@ jobs:
           context: PotePartyApi/.
           push: true
           tags:
-            ghcr.io/BerndMensch/potseparty-api:latest
+            ghcr.io/berndmensch/potseparty-api:latest
           labels: ${{ steps.meta.outputs.labels }}
