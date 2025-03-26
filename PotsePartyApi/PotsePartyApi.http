@@ -1,0 +1,6 @@
+@PotsePartyApi_HostAddress = http://localhost:5233
+
+GET {{PotsePartyApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
