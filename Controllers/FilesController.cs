@@ -71,7 +71,7 @@ namespace PotsePartyApi.Controllers
                 }
 
                 await _minio.PutObjectAsync(bucket, filename, stream, stream.Length);
-                return $"https://cloud.potseparty.de/{bucket}/{filename}";
+                return $"https://storage.potseparty.de/{bucket}/{filename}";
             }
             catch (MinioException e)
             {
